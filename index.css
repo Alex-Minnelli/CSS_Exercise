@@ -7,20 +7,13 @@
 /* Exercise 3 */
 main {
     max-width: 600px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 24px auto 24px auto;
 }
 
 /* Exercise 4 */
 section {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin: 24px inherit 24px inherit;
+    padding: 16px 16px 16px 16px;
 }
 
 /* Exercise 5 */
@@ -48,8 +41,5 @@ body {
 /* Exercise 9 */
 #avatar {
     width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin: 32px auto 32px auto;
 }
